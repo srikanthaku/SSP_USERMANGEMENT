@@ -12,6 +12,7 @@ sap.ui.define([
 			onInit: function () {
 
 				this.oRouter = this.getRouter();
+
 				this._createItemDataModel();
 				this.BPFlagCheckAPI();
 
