@@ -34,7 +34,7 @@
 							<IconTabFilter icon="sap-icon://open-folder" iconColor="Negative" text="Pending" count="{oIconTabCountModel>/issueCount}">
 								<core:Fragment fragmentName="com.swcc.SSP_UserManagement.fragments.UserManagement.OpenRequest" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter icon="sap-icon://close-command-field" iconColor="Positive" text="Closed" count="{oIconTabCountModel>/issueCount}">
+							<IconTabFilter icon="sap-icon://close-command-field" iconColor="Positive" text="Users" count="{oIconTabCountModel>/issueCount}">
 								<core:Fragment fragmentName="com.swcc.SSP_UserManagement.fragments.UserManagement.ClosedRequest" type="XML"/>
 							</IconTabFilter>
 						</items>

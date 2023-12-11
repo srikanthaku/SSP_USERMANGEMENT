@@ -17,6 +17,7 @@
 					"odataVersion": "2.0",
 					"localUri": "localService/metadata.xml"
 				}
+
 			},
 			"ZSSP_COMMON": {
 				"uri": "/sap/opu/odata/sap/ZSSP_COMMON/",
@@ -34,6 +35,9 @@
 					"localUri": "localService/metadata.xml"
 				}
 			}
+		},
+		"settings": {
+			"useBatch": true
 		},
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
@@ -92,6 +96,11 @@
 			"ZSSP_COMMON": {
 				"dataSource": "ZSSP_COMMON",
 				"preload": true
+			},
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"preload": false
 			}
 		},
 		"resources": {
