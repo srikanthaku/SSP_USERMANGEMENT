@@ -11,8 +11,7 @@
 		<fb:filterGroupItems>
 			<fb:FilterGroupItem groupName="__$INTERNAL$" name="PONOs" label="{i18n>RequestID}" visibleInFilterBar="true" class="searchFieldLabelHidden">
 				<fb:control>
-					<Input id="idPono" liveChange="onFilterChange" placeholder="{i18n>EnterRequestID}" showSuggestion="true" showValueHelp="false"
-						suggestionItems="{/MDCCStatusSet}">
+					<Input id="idPono" liveChange="onFilterChange" placeholder="" showSuggestion="true" showValueHelp="false" suggestionItems="{/MDCCStatusSet}">
 						<suggestionItems>
 							<core:Item text="{MDCC/PONumber}"/>
 						</suggestionItems>
@@ -21,14 +20,13 @@
 			</fb:FilterGroupItem>
 			<fb:FilterGroupItem groupName="__$INTERNAL$" name="mdccNos" label="{i18n>Date}" visibleInFilterBar="true" class="searchFieldLabelHidden">
 				<fb:control>
-					<DateRangeSelection id="dateRangeSelectionId" displayFormat="dd/MM/yyyy" change="onDateRangeSelectionChange"/>
+					<DateRangeSelection id="dateRangeSelectionId" displayFormat="" placeholder="" change="onDateRangeSelectionChange"/>
 				</fb:control>
 			</fb:FilterGroupItem>
 			<fb:FilterGroupItem groupName="__$INTERNAL$" name="FirstName" label="{i18n>FirstName}" visibleInFilterBar="true"
 				class="searchFieldLabelHidden">
 				<fb:control>
-					<Input liveChange="onFilterChange" placeholder="{i18n>EnterFirstName}" showSuggestion="true" showValueHelp="false"
-						suggestionItems="{/MDCCStatusSet}">
+					<Input liveChange="onFilterChange" placeholder="" showSuggestion="true" showValueHelp="false" suggestionItems="{/MDCCStatusSet}">
 						<suggestionItems>
 							<core:Item text="{MDCC/MDCCNumber}"/>
 						</suggestionItems>
@@ -38,8 +36,7 @@
 			<fb:FilterGroupItem groupName="__$INTERNAL$" name="CreatedAt" label="{i18n>LastName}" visibleInFilterBar="true"
 				class="searchFieldLabelHidden">
 				<fb:control>
-					<Input liveChange="onFilterChange" placeholder="{i18n>EnterLAstName}" showSuggestion="true" showValueHelp="false"
-						suggestionItems="{/MDCCStatusSet}">
+					<Input liveChange="onFilterChange" placeholder="" showSuggestion="true" showValueHelp="false" suggestionItems="{/MDCCStatusSet}">
 						<suggestionItems>
 							<core:Item text="{MDCC/MDCCNumber}"/>
 						</suggestionItems>

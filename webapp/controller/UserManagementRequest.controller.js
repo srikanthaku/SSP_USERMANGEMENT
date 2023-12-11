@@ -27,7 +27,6 @@ sap.ui.define([
 			},
 
 			BPFlagCheckAPI: function () {
-				debugger;
 
 				var Filter = this.getFilters("WT_POWER", true);
 

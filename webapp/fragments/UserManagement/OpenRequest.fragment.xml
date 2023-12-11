@@ -1,6 +1,6 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:tnt="sap.tnt" xmlns:fm="sap.ui.layout.form" xmlns:core="sap.ui.core">
-	<Table id="idProductsTable" sticky="ColumnHeaders,HeaderToolbar" inset="false" mode="MultiSelect"
-		items="{path : '/OpenItemRequestData/itemData'}" class="swcc-Table">
+	<Table id="idProductsTable" sticky="ColumnHeaders,HeaderToolbar" inset="false" mode="None" items="{path : '/OpenItemRequestData/itemData'}"
+		class="ssp-request-Table">
 		<headerToolbar>
 			<OverflowToolbar>
 				<Title text="Requests" level="H2"/>
@@ -38,10 +38,10 @@
 			<Column minScreenWidth="Tablet" demandPopin="true">
 				<Text text="Mobile No"/>
 			</Column>
-			<Column minScreenWidth="Tablet" demandPopin="true">
+			<Column minScreenWidth="Tablet" width="3.2em" demandPopin="true">
 				<Text text=""/>
 			</Column>
-			<Column minScreenWidth="Tablet" demandPopin="true">
+			<Column minScreenWidth="Tablet" width="3.2em" demandPopin="true">
 				<Text text=""/>
 			</Column>
 		</columns>
@@ -54,8 +54,8 @@
 					<Text text="{LastName}"/>
 					<Text text="{Email}"/>
 					<Text text="{Phone}"/>
-					<Button text="Approve" class="swcc-pmy-btn" press="onApprove"/>
-					<Button type="Reject" class="swcc-sec-btn" text="Reject" press="onPress"/>
+					<Button icon="sap-icon://employee-approvals" class="swcc-pmy-btn" type="Accept" press="onApprove"/>
+					<Button type="Reject" class="swcc-sec-btn" icon="sap-icon://employee-rejections" press="onPress"/>
 				</cells>
 			</ColumnListItem>
 		</items>
