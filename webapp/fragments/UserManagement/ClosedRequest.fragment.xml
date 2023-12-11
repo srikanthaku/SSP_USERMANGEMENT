@@ -46,7 +46,7 @@
 				<Column>
 					<customData>
 						<core:CustomData key="p13nData"
-							value='\{"columnKey": "CustNumber", "leadingProperty": "CustNumber", "columnIndex": 3 ,"sortProperty": "CustNumber","filterProperty": "CustNumber"}'/>
+							value='\{"columnKey": "CustNudmber", "leadingProperty": "d", "columnIndex": 4 ,"sortProperty": "CustNumber","filterProperty": "CustNumber"}'/>
 					</customData>
 					<ObjectIdentifier title="{i18n>Roles}"/>
 				</Column>
