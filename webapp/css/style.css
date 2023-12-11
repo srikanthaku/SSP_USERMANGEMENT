@@ -130,6 +130,17 @@
     font-family: 'SWCC-4-Bold';
 }
 
+.ssp-user .ssp-form-bg span {
+    background: #004687;
+    color: #fff;
+    border-radius: 10px 10px 5px 5px;
+    height: fit-content;
+    font-family: 'SWCC-4-Bold';
+    line-height: 2.75rem;
+    font-size: 1.125rem;
+    padding: 0 1rem;
+}
+
 .ssp-title .sapMBtnIcon,
 .ssp-title .sapMTitle {
     color: #ffffff;
@@ -146,7 +157,8 @@
 
 }
 
-.ssp-form-bg .sapMLabel {
+.ssp-form-bg .sapMLabel,
+.user-filter .sapMLabelTextWrapper {
     font-family: 'SWCC-3-Medium';
 }
 

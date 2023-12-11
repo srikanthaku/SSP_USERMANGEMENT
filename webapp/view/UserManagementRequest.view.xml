@@ -22,11 +22,6 @@
 			<l:VerticalLayout class="sapUiNoMargin sapUiNoContentPadding ssp-vtl" width="100%">
 				<l:content >
 					<VBox>
-						<Toolbar class="ssp-title">
-							<Button press=".handleBackPress" icon="sap-icon://nav-back"/>
-							<Title class="ssp-form-bg" text="{i18n>UserRequest}"/>
-							<ToolbarSpacer/>
-						</Toolbar>
 						<core:Fragment fragmentName="com.swcc.SSP_UserManagement.fragments.UserManagement.UserFilter" type="XML"/>
 					</VBox>
 					<IconTabBar id="idIconTabBar" select="" class="sapUiResponsiveContentPadding">
