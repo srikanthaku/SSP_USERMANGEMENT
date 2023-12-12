@@ -14,6 +14,7 @@ sap.ui.define([
 				this.oRouter = this.getRouter();
 
 				this._createItemDataModel();
+
 				this.getUserDetails();
 
 			},
