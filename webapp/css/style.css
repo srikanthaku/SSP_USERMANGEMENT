@@ -20,7 +20,41 @@
 }
 
 /* custom font ends here */
+/* user management */
+.sapMITBFilter .sapMITBText {
+    width: 6.5rem;
+    font-size: 1rem;
+}
 
+.sapMITBFilter .sapMITBText .sapMITHTextContent {
+    font-family: 'SWCC-3-Medium';
+    font-size: 0.8rem;
+}
+
+.user-filter .sapMInputBaseInner,
+.user-filter .sapMInputBaseIcon {
+    background: #EFF0F2;
+    border: 0px;
+    height: 2rem;
+    font-family: 'SWCC-3-Medium';
+    line-height: 1.9rem;
+}
+
+/*
+.user-filter .sapMFocus.sapMInputBase .sapMInputBaseInner:hover {
+    background: #EFF0F2;
+    border: 0px;
+    height: 2rem;
+    box-shadow: 2px 2px 5px 1px #729ac39e;
+}*/
+
+.user-filter .sapMInputBase,
+.user-filter .sapMInputBaseContentWrapper {
+    height: 2rem;
+    border: none;
+}
+
+/* user management ends here */
 /* App homepage */
 .ssp-apphomepage .sapFDynamicPageContent,
 .ssp-apphomepage .sapFDynamicPageContentFitContainer {
@@ -130,6 +164,17 @@
     font-family: 'SWCC-4-Bold';
 }
 
+.ssp-user .ssp-form-bg span {
+    background: #004687;
+    color: #fff;
+    border-radius: 10px 10px 5px 5px;
+    height: fit-content;
+    font-family: 'SWCC-4-Bold';
+    line-height: 2.75rem;
+    font-size: 1.125rem;
+    padding: 0 1rem;
+}
+
 .ssp-title .sapMBtnIcon,
 .ssp-title .sapMTitle {
     color: #ffffff;
@@ -146,7 +191,8 @@
 
 }
 
-.ssp-form-bg .sapMLabel {
+.ssp-form-bg .sapMLabel,
+.user-filter .sapMLabel {
     font-family: 'SWCC-3-Medium';
 }
 

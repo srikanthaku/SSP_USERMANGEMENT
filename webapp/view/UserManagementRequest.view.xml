@@ -22,19 +22,14 @@
 			<l:VerticalLayout class="sapUiNoMargin sapUiNoContentPadding ssp-vtl" width="100%">
 				<l:content >
 					<VBox>
-						<Toolbar class="ssp-title">
-							<Button press=".handleBackPress" icon="sap-icon://nav-back"/>
-							<Title class="ssp-form-bg" text="{i18n>UserRequest}"/>
-							<ToolbarSpacer/>
-						</Toolbar>
 						<core:Fragment fragmentName="com.swcc.SSP_UserManagement.fragments.UserManagement.UserFilter" type="XML"/>
 					</VBox>
 					<IconTabBar id="idIconTabBar" select="" class="sapUiResponsiveContentPadding">
 						<items>
-							<IconTabFilter icon="sap-icon://open-folder" iconColor="Negative" text="Pending" count="{oIconTabCountModel>/issueCount}">
+							<IconTabFilter icon="sap-icon://visits" iconColor="Negative" text="Pending Users" count="{oIconTabCountModel>/issueCount}">
 								<core:Fragment fragmentName="com.swcc.SSP_UserManagement.fragments.UserManagement.OpenRequest" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter icon="sap-icon://close-command-field" iconColor="Positive" text="Users" count="{oIconTabCountModel>/issueCount}">
+							<IconTabFilter icon="sap-icon://employee-lookup" iconColor="Positive" text="Avaliable Users" count="{oIconTabCountModel>/issueCount}">
 								<core:Fragment fragmentName="com.swcc.SSP_UserManagement.fragments.UserManagement.ClosedRequest" type="XML"/>
 							</IconTabFilter>
 						</items>
@@ -43,12 +38,12 @@
 			</l:VerticalLayout>
 		</f:content>
 		<!-- DynamicPage Footer -->
-		<f:footer>
+		<!--	<f:footer>
 			<OverflowToolbar id="idOverflowToolbar" visible="true">
 				<ToolbarSpacer id="idToolbarSpacer"/>
 				<Button id="idproceed" text="{i18n>Save}" type="Accept" class="btn-proceed" press="onProceed"/>
 				<Button id="idcancel" text="{i18n>Cancel}" type="Reject" class="btn-cancel" press=""/>
 			</OverflowToolbar>
-		</f:footer>
+		</f:footer>-->
 	</f:DynamicPage>
 </mvc:View>
