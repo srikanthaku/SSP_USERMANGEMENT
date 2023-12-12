@@ -14,7 +14,7 @@ sap.ui.define([
 				this.oRouter = this.getRouter();
 
 				this._createItemDataModel();
-				this.BPFlagCheckAPI();
+				this.getUserDetails();
 
 			},
 			_createItemDataModel: function () {
@@ -26,8 +26,7 @@ sap.ui.define([
 				});
 			},
 
-			BPFlagCheckAPI: function () {
-				debugger;
+			getUserDetails: function () {
 
 				var Filter = this.getFilters("WT_POWER", true);
 
